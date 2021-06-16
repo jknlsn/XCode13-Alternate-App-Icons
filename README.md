@@ -18,8 +18,7 @@ Set `Include All App Icon Assets` to `Yes`.
 
 Double click on `Alternate App Icon Sets` and type in the names of your alternate app icons assets, separate with a comma i.e. `Green, Blue`.
 
-![Asset Catalog Compiler - Options](https://github.com/jknlsn/XCode13-Alternate-App-Icons/raw/main/Images/E39gw1JVgAIZV-Q.jpg "Screenshot of XCode build settings")
-
+![Asset Catalog Compiler - Options](https://github.com/jknlsn/XCode13-Alternate-App-Icons/raw/main/Images/E39gw1JVgAIZV-Q.jpeg "Screenshot of XCode build settings")
 
 ## Code
 

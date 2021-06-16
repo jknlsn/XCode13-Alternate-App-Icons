@@ -55,11 +55,12 @@ VStack{
 
 ## Final result
 
-![Change App Icon](/Images/IMG_5950.png)
+![Change App Icon](https://github.com/jknlsn/XCode13-Alternate-App-Icons/raw/main/Images/IMG_5950.jpg "Change App Icon")
 
-![You have changed the icon confirmation message](/Images/IMG_5952.png)
+![You have changed the icon confirmation message](https://github.com/jknlsn/XCode13-Alternate-App-Icons/raw/main/Images/IMG_5952.jpg "You have changed the icon confirmation message")
 
 ## References
 
 [XCode 13 Beta Release Notes](https://developer.apple.com/documentation/Xcode-Release-Notes/xcode-13-beta-release-notes)
-[https://www.hackingwithswift.com/example-code/uikit/how-to-change-your-app-icon-dynamically-with-setalternateiconname](https://www.hackingwithswift.com/example-code/uikit/how-to-change-your-app-icon-dynamically-with-setalternateiconname)
+
+[Hacking With Swift - How to change your app icon dynamically with setalternateiconname](https://www.hackingwithswift.com/example-code/uikit/how-to-change-your-app-icon-dynamically-with-setalternateiconname)

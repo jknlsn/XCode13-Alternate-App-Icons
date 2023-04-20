@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    let iconNames = ["BlueIcon", "GreenIcon", "AppIcon"]
+
     var body: some View {
         VStack{
             
@@ -15,27 +18,19 @@ struct ContentView: View {
                 .font(.title)
             
             HStack{
-                
-                Button(action: {
-                    UIApplication.shared.setAlternateIconName(nil)
-                }){
-                    Image("AppIconImage")
-                        .cornerRadius(20)
-                }
-                
-                Button(action: {
-                    UIApplication.shared.setAlternateIconName("BlueIcon")
-                }){
-                    Image("BlueImage")
-                        .cornerRadius(20)
-                }
-                
-                Button(action: {
-                    UIApplication.shared.setAlternateIconName("GreenIcon")
-                }){
-                    
-                    Image("GreenImage")
-                        .cornerRadius(20)
+                ForEach(iconNames, id: \.self) { iconName in
+                    Button(action: {
+                        if iconName == "AppIcon" {
+                            UIApplication.shared.setAlternateIconName(nil)
+                        } else {
+                            UIApplication.shared.setAlternateIconName(iconName)
+                        }
+                    }){
+                        Image(iconName+"Image")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .cornerRadius(20)
+                    }
                 }
             }
         }

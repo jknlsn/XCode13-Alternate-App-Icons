@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    let iconNames = ["BlueIcon", "GreenIcon", "AppIcon"]
+    let iconNames = ["BlueIcon", "GreenIcon", "AppIcon", "TestIcon"]
 
     var body: some View {
         VStack{
